@@ -1,0 +1,80 @@
+
+
+.navbar{
+	background-color: #FF69B4;
+	color : white;
+}
+
+.navbar-brand{
+	color : white;
+}	
+
+
+h1{	
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+
+}
+
+.jumbotron{
+	padding-top: 30px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+
+h2{	
+	color : purple;
+}
+
+div{
+	font-family: "Trebuchet MS", serif;
+
+
+}
+
+footer{
+	background-color: #FF69B4;
+	text-align: center;
+	padding-top: 5px;
+
+}	
+
+footer .copyright{
+	background-color: #778899;
+	margin-bottom: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.imag .full {
+	background-image: url("../data/spongebobfriends.jpg"); 
+	background-size: cover;	
+	padding-top: 130px;
+	padding-bottom: 100px;
+	width : 100%;
+	background-attachment: fixed;
+	height: 100%;
+}
+
+
+.imag .fullbis {
+	background-image: url("../data/LOVEBOB.jpg"); 
+	width : 100%;
+	background-attachment: fixed;
+	height: 100%;
+	padding : 200px;
+}
+
+
+
+@media(max-width:767px) {
+	.imag .full{
+	background-position: center;
+	background-image: url("../data/spongebobfriends_min.jpg"); 
+	position: 2px;
+
+	}
+}
