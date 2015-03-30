@@ -3,6 +3,8 @@
 .navbar{
 	background-color: #FF69B4;
 	color : white;
+	border-bottom: solid 2px ;
+	border-color: gray;
 }
 
 .navbar-brand{
@@ -69,6 +71,9 @@ footer .copyright{
 	padding : 200px;
 }
 
+section.friends{
+	background-color: gray;
+}
 
 
 @media(max-width:767px) {
