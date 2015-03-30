@@ -68,7 +68,10 @@ footer .copyright{
 	width : 100%;
 	background-attachment: fixed;
 	height: 100%;
-	padding : 200px;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	padding-left: 20%;
+	padding-right: 20%;
 }
 
 section.friends{
@@ -81,8 +84,11 @@ section.friends{
 	background-position: center;
 	background-image: url("../data/spongebobfriends_min.jpg"); 
 	position: 2px;
-
-	}
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
 }
 
 
