@@ -55,8 +55,8 @@ footer .copyright{
 .imag .full {
 	background-image: url("../data/spongebobfriends.jpg"); 
 	background-size: cover;	
-	padding-top: 130px;
-	padding-bottom: 100px;
+	padding-top: 80px;
+	padding-bottom: 80px;
 	width : 100%;
 	background-attachment: fixed;
 	height: 100%;
@@ -64,15 +64,20 @@ footer .copyright{
 
 
 .imag .fullbis {
-	background-image: url("../data/LOVEBOB.jpg"); 
-	width : 100%;
+	background-image: url("../data/Poing.png"); 
 	background-attachment: fixed;
-	height: 100%;
-	padding-top: 200px;
-	padding-bottom: 200px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 	padding-left: 20%;
 	padding-right: 20%;
+	background-size: 90px;
 }
+
+.imag .fullbis h1{
+	color : #FF69B4;
+	font-style: bold;
+}
+
 
 section.friends{
 	background-color: gray;
@@ -91,8 +96,6 @@ section.friends{
 	
 }
 
-
-
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-	background-color: transparent;
+#dream{
+	background-color: #FF69B4;
 }
