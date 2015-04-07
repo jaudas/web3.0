@@ -1,0 +1,101 @@
+
+
+.navbar{
+	background-color: #FF69B4;
+	color : white;
+	border-bottom: solid 2px ;
+	border-color: gray;
+}
+
+.navbar-brand{
+	color : white;
+}	
+
+
+h1{	
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+
+}
+
+.jumbotron{
+	padding-top: 30px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+
+h2{	
+	color : purple;
+}
+
+div{
+	font-family: "Trebuchet MS", serif;
+
+
+}
+
+
+footer{
+	background-color: #FF69B4;
+	text-align: center;
+	padding-top: 5px;
+
+}	
+
+footer .copyright{
+	background-color: #778899;
+	margin-bottom: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.imag .full {
+	background-image: url("../data/spongebobfriends.jpg"); 
+	background-size: cover;	
+	padding-top: 80px;
+	padding-bottom: 80px;
+	width : 100%;
+	background-attachment: fixed;
+	height: 100%;
+}
+
+
+.imag .fullbis {
+	background-image: url("../data/Poing.png"); 
+	background-attachment: fixed;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	padding-left: 20%;
+	padding-right: 20%;
+	background-size: 90px;
+}
+
+.imag .fullbis h1{
+	color : #FF69B4;
+	font-style: bold;
+}
+
+
+section.friends{
+	background-color: gray;
+}
+
+
+@media(max-width:767px) {
+	.imag .full{
+	background-position: center;
+	background-image: url("../data/spongebobfriends_min.jpg"); 
+	position: 2px;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
+}
+
+#dream{
+	background-color: #FF69B4;
+}
