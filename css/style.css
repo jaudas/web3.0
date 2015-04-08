@@ -45,6 +45,22 @@ footer{
 
 }	
 
+
+#listeProgramme{
+	font-size: 18px;
+	padding-right: 20% 20%;
+	color: white;
+
+}
+
+#listeProgramme2{
+	font-size: 18px;
+	padding-right: 20% 20%;
+	color: white;
+
+}
+
+
 footer .copyright{
 	background-color: #1d1d1b;
 	margin-bottom: 0;
@@ -54,7 +70,7 @@ footer .copyright{
 }
 
 .imag .full {
-	background-image: url("../data/spongebobfriends.jpg"); 
+	background-image: url("../data/chtiz.jpg"); 
 	background-size: cover;	
 	padding-top: 80px;
 	padding-bottom: 80px;
@@ -102,7 +118,7 @@ section.friends{
 @media(max-width:767px) {
 	.imag .full{
 	background-position: center;
-	background-image: url("../data/spongebobfriends_min.jpg"); 
+	background-image: url("../data/logo-chtiz.png"); 
 	position: 2px;
 	padding-left: 5%;
 	padding-right: 5%;
