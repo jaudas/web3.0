@@ -69,15 +69,7 @@ footer .copyright{
 	color: white;
 }
 
-.imag .full {
-	background-image: url("../data/chtiz.jpg"); 
-	background-size: cover;	
-	padding-top: 80px;
-	padding-bottom: 80px;
-	width : 100%;
-	background-attachment: fixed;
-	height: 100%;
-}
+
 
 
 .imag .fullbis {
@@ -115,16 +107,38 @@ section.friends{
 	padding-top: 5%;
 	padding-bottom: 5%;
 }
-@media(max-width:767px) {
-	.imag .full{
-	background-position: center;
+
+
+.imag .full {
+
+	width : 100%;
+	background-attachment: fixed;
+	height: 100%;
+	padding-top: 100px;
 	background-image: url("../data/logo-chtiz.png"); 
+	background-position: ;
 	position: 2px;
 	padding-left: 5%;
 	padding-right: 5%;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 80px;
+	padding-bottom: 60px;
+}
+
+@media(min-width:767px) {
+	.imag .full{
+	background-position: center;
+	background-image: url("../data/chtiz-min.jpg"); 
+	position: 2px;
+	padding-bottom: 100px;
+	padding-left: 20%;
+	padding-right: 20%;
+	background-size: cover;	
 	
+	
+}
+@media(max-width:767px) {
+	.imag .full{
+
 	
 }
 
